@@ -1,20 +1,24 @@
-const { Model, DataTypes } = require('sequelize');
-
-const sequelize = require('../config/connection');
-
-class ProductTag extends Model {}
-
-ProductTag.init(
-  {
-    // define columns
-  },
-  {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'product_tag',
+'use strict';
+const {
+  Model
+} = require('sequelize');
+module.exports = (sequelize, DataTypes) => {
+  class ProductTag extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
   }
-);
-
-module.exports = ProductTag;
+  ProductTag.init({
+    product_id: DataTypes.INTEGER,
+    tag_id: DataTypes.INTEGER
+  }, {
+    sequelize,
+    modelName: 'ProductTag',
+  });
+  return ProductTag;
+};
