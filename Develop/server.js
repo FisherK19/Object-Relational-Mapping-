@@ -1,9 +1,3 @@
-require('dotenv').config();
-
-console.log("DB_USERNAME:", process.env.DB_USERNAME);
-console.log("DB_PASSWORD:", process.env.DB_PASSWORD);
-console.log("DB_DATABASE:", process.env.DB_DATABASE);
-
 const express = require('express');
 const routes = require('./routes');
 // import sequelize connection
@@ -13,6 +7,11 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Define a basic route
+app.get('/', (req, res) => {
+  res.send('Welcome to my Sequelize App!');
+});
 
 app.use(routes);
 
