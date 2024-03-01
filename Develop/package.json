@@ -1,7 +1,7 @@
 {
   "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Object Relational Mapping challenge project",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,8 +14,8 @@
     "url": "https://github.com/FisherK19/Object-Relational-Mapping-"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC,MIT",
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
@@ -26,3 +26,4 @@
     "sequelize": "^5.22.5"
   }
 }
+
