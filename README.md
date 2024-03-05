@@ -18,22 +18,22 @@ The E-commerce ORM API is a backend server application designed to handle CRUD (
 
 ## Project Structure:
 
-server.js: Main entry point of the application, initializes the Express server and sets up routes.
-routes/: Directory containing route handlers for different API endpoints (products, categories, tags).
-models/: Contains Sequelize model definitions for database tables (Product, Category, Tag).
-controllers/: Controllers for handling business logic and interacting with the database.
-middlewares/: Middleware functions for request validation, authentication, and error handling.
-config/: Configuration files for database connection and environment variables.
-seeds/: Data seeding scripts for populating the database with sample data.
+1. server.js: Main entry point of the application, initializes the Express server and sets up routes.
+2. routes/: Directory containing route handlers for different API endpoints (products, categories, tags).
+3. models/: Contains Sequelize model definitions for database tables (Product, Category, Tag).
+4. controllers/: Controllers for handling business logic and interacting with the database.
+5. middlewares/: Middleware functions for request validation, authentication, and error handling.
+6. config/: Configuration files for database connection and environment variables.
+7. seeds/: Data seeding scripts for populating the database with sample data.
 
 # Usage:
 
-Clone the project repository from GitHub.
-Install dependencies using npm.
-Set up environment variables for database connection.
-Run the server using npm start.
-Use Insomnia or any API testing tool to interact with the API endpoints.
-Contributors: [Your Name] and any other contributors to the project.
+- Clone the project repository from GitHub.
+- Install dependencies using npm.
+- Set up environment variables for database connection.
+- Run the server using npm start.
+- Use Insomnia or any API testing tool to interact with the API endpoints.
+- Contributors: [Your Name] and any other contributors to the project.
 
 License: MIT License
 
