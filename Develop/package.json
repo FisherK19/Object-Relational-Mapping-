@@ -14,7 +14,7 @@
     "url": "https://github.com/FisherK19/Object-Relational-Mapping-"
   },
   "keywords": [],
-  "author": "Your Name",
+  "author": "Kristie Fisher",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
@@ -23,7 +23,6 @@
     "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.22.5"
+    "sequelize": "^6.37.1"
   }
 }
-

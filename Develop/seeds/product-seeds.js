@@ -1,3 +1,5 @@
+// product-seeds.js
+
 const { Product } = require('../models');
 
 const productData = [
@@ -8,26 +10,26 @@ const productData = [
     category_id: 1,
   },
   {
-    product_name: 'Converse Sneakers',
-    price: 60.0,
+    product_name: 'Running Sneakers',
+    price: 90.0,
     stock: 25,
     category_id: 5,
   },
   {
-    product_name: 'Dictionary',
-    price: 40.99,
-    stock: 15,
+    product_name: 'Branded Baseball Hat',
+    price: 22.99,
+    stock: 12,
     category_id: 4,
   },
   {
-    product_name: 'Records',
-    price: 10.99,
+    product_name: 'Top 40 Music Compilation Vinyl Record',
+    price: 12.99,
     stock: 50,
     category_id: 3,
   },
   {
     product_name: 'Cargo Shorts',
-    price: 25.99,
+    price: 29.99,
     stock: 22,
     category_id: 2,
   },
