@@ -33,7 +33,6 @@ The E-commerce ORM API is a backend server application designed to handle CRUD (
 - Set up environment variables for database connection.
 - Run the server using npm start.
 - Use Insomnia or any API testing tool to interact with the API endpoints.
-- Contributors: [Your Name] and any other contributors to the project.
 
 License: MIT License
 
